@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="snazzy.css" />
+  </head>
+  <div class="bigbox">
+    <div id="title">
+      <h1>SNAZZYCLOTHINGS SURVEY FORM</h1>
+      <h3><em>Thanks for taking the time to help us serve you better</em></h3>
+    </div>
+    <div class="smallbox">
+      <form action="form.html" method="GET">
+        <div>
+          <label for="name"><h4>NAME</h4></label>
+        </div>
+        <div>
+          <input class="see"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+
+        <div>
+          <label for="email"><h4>EMAIL</h4></label>
+        </div>
+        <div>
+          <input class="see"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <div>
+          <label for="age"><h4>AGE(optional)</h4></label>
+        </div>
+        <div>
+          <input class="see"
+            type="number"
+            name="name"
+            id="age"
+            placeholder="Enter your age"
+          />
+        </div>
+
+        <div>
+          <label for="clothtype"><h4>CHOOSE YOUR PURCHASED MERCH</h4></label>
+        </div>
+        <div>
+          <select class="see"
+            name="clothtype"
+            id="clothtype"
+            place-holder="select your cloth type"
+          >
+            <option value="Agbada">Agbada</option>
+            <option value="Jogger">Jogger</option>
+            <option value="Varsity jacket">Varsity jacket</option>
+            <option value="Pull-over">Pull-over</option>
+          </select>
+        </div>
+
+        <h4>WOULD YOU RECOMMEND SNAZZYCLOTHING?</h4>
+        <div>
+          <label for="yes">
+            <input type="radio" name="recommendation" id="yes" /></label
+          >DEFINITELY
+        </div>
+
+        <div>
+          <label for="no">
+            <input type="radio" name="recommendation" id="no" /></label
+          >NOT SURE
+        </div>
+
+        <div>
+          <label for="maybe">
+            <input type="radio" name="recommendation" id="maybe" /></label
+          >MAYBE
+        </div>
+
+        <div>
+          <label for="rate"
+            ><h4>RATE TAILOR'S PERFORMANCE ON A SCALE OF 1-10</h4></label
+          >
+        </div>
+        <div>
+          <input type="number" name="rate" id="rate" min="1" max="10" class="see" placeholder="rate(1-10)" />
+        </div>
+
+        <h4>WHAT WOULD LIKE TO SEE IMPROVED?(check all that apply)</h4>
+        <div class="form_group">
+          <input type="checkbox" name="recommendation" id="design" />
+          <label for="design"> DESIGN </label>
+        </div>
+        <div class="form_group">
+          <label for="design">
+            <input type="checkbox" name="recommendation" id="design" /></label
+          >RECEPTION
+        </div>
+        <div>
+          <label for="design">
+            <input type="checkbox" name="recommendation" id="design" /></label
+          >MODE OF DELIVERY
+        </div>
+        <div>
+          <label for="design">
+            <input type="checkbox" name="recommendation" id="design" /></label
+          >DURATION
+        </div>
+        <div>
+          <label for="design">
+            <input type="checkbox" name="recommendation" id="design" /></label
+          >QUALITY OF FABRIC
+        </div>
+        <div>
+          <label for="design">
+            <input type="checkbox" name="recommendation" id="design" /></label
+          >MEASUREMENT
+        </div>
+
+        <div>
+          <h4>ANY COMMENTS OR SUGGESTIONS?</h4>
+          <textarea
+            id="comment"
+            cols="70"
+            rows="2"
+            placeholder="Enter comments here"
+          ></textarea>
+        </div>
+
+        <div id="button"><button type="submit">SUBMIT</button></div>
+      </form>
+    </div>
+  </div>
+  <body></body>
+</html>
